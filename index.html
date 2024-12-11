@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="styles.css">  <!-- Link to the CSS file -->
+</head>
+<body>
+
+  <div id="search-container">
+    <input type="text" id="search-bar" placeholder="Search by Artist or Song Name..." />
+  </div>
+
+  <div id="gallery"></div>  <!-- This is where the images will be displayed -->
+
+  <!-- The Modal for fullscreen image -->
+  <div id="modal" class="modal">
+    <span id="close-btn" class="close-btn">&times;</span>
+    <img id="modal-img" class="modal-img" />
+  </div>
+
+  <!-- Link to the JavaScript file, app.js -->
+  <script src="images.js"></script>   <!-- Link to the images data file -->
+  <script src="app.js"></script>      <!-- Link to the JavaScript logic file -->
+
+</body>
+</html>
