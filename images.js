@@ -4,6 +4,10 @@ const images = [
       "nametag": "Alejandro Sanz Amiga Mía"
     },
     {
+      "src": "Charts/El Canto Del Loco/Volverá.webp",
+      "nametag": "El Canto Del Loco Volverá"
+    },
+    {
       "src": "Charts/Estopa/Apagón.webp",
       "nametag": "Estopa Apagón"
     },
@@ -12,8 +16,20 @@ const images = [
       "nametag": "Fito y Fitipaldis Por La Boca Vive El Pez"
     },
     {
+      "src": "Charts/Joaquin Sabina/Y Sin Embargo.webp",
+      "nametag": "Joaquin Sabina Y Sin Embargo"
+    },
+    {
+      "src": "Charts/Juanito Makandé/Niña Voladora.webp",
+      "nametag": "Juanito Makandé Niña Voladora"
+    },
+    {
       "src": "Charts/Kiko Veneno/Lobo Lopez.webp",
       "nametag": "Kiko Veneno Lobo Lopez"
+    },
+    {
+      "src": "Charts/La Cabra Mecánica/Carne De Canción.webp",
+      "nametag": "La Cabra Mecánica Carne De Canción"
     },
     {
       "src": "Charts/La Cabra Mecánica/Shalala.webp",
@@ -32,8 +48,19 @@ const images = [
       "nametag": "Navajita Plateá Noches de Bohemia"
     },
     {
+      "src": "Charts/Raimundo Amador/Bolleré.webp",
+      "nametag": "Raimundo Amador Bolleré"
+    },
+    {
       "src": "Charts/Rosario/Como Quieres Que Te Quiera.webp",
       "nametag": "Rosario Como Quieres Que Te Quiera"
+    },
+    {
+      "src": "Charts/Sopa De Cabra/El Far Del Sud.webp",
+      "nametag": "Sopa De Cabra El Far Del Sud"
+    },
+    {
+      "src": "Charts/Sopa De Cabra/L'Empordá.webp",
+      "nametag": "Sopa De Cabra L'Empordá"
     }
   ];
-  
