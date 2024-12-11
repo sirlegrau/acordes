@@ -13,16 +13,20 @@ body {
 }
 
 #search-container {
+    position: sticky; /* Make the search bar sticky */
+    top: 0; /* Stick to the top of the screen */
+    z-index: 100; /* Ensure it stays above other content */
     padding: 20px;
     text-align: center;
+    background-color: #121212; /* Match the background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Optional: Add a shadow for better visibility */
 }
 
 #search-bar {
-    align-self: center;
-    margin-top: 19px;
-    margin-left: -9px;
     padding: 10px;
     width: 100%;
+    margin-top: 3px;
+    margin-left: -11px;
     max-width: 600px;  /* Limit the max width */
     font-size: 16px;
     border-radius: 5px;
