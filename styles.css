@@ -40,6 +40,7 @@ body {
   }
   
   #search-container {
+    margin-top: 41px;
     padding: 20px;
     text-align: center;
   }
@@ -86,3 +87,42 @@ body {
     cursor: pointer;
   }
   
+
+  /* New styles for the mailto button */
+footer {
+    position: absolute;
+    top: 55px; /* Adjust the value as needed */
+    right: 69px; /* Adjust the value as needed */
+}
+
+.mailto-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background 0.3s ease, transform 0.3s ease;
+    animation: bounce 2s infinite ease-in-out; /* Bounce animation */
+}
+
+/* Bounce animation */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+}
+  
+.mailto-button:hover {
+    background: linear-gradient(135deg, #0056b3, #003d7a);
+    transform: scale(1.05);
+}
