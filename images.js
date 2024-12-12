@@ -12,8 +12,20 @@ const images = [
       "nametag": "Estopa Apagón"
     },
     {
+      "src": "Charts/Estopa/Mundo Marrón.webp",
+      "nametag": "Estopa Mundo Marrón"
+    },
+    {
+      "src": "Charts/Fito y Fitipaldis/A la Luna se le ve el ombligo.webp",
+      "nametag": "Fito y Fitipaldis A la Luna se le ve el ombligo"
+    },
+    {
       "src": "Charts/Fito y Fitipaldis/Por La Boca Vive El Pez.webp",
       "nametag": "Fito y Fitipaldis Por La Boca Vive El Pez"
+    },
+    {
+      "src": "Charts/Joaquin Sabina/Calle Melancolía.webp",
+      "nametag": "Joaquin Sabina Calle Melancolía"
     },
     {
       "src": "Charts/Joaquin Sabina/Y Sin Embargo.webp",
@@ -24,6 +36,10 @@ const images = [
       "nametag": "Juanito Makandé Niña Voladora"
     },
     {
+      "src": "Charts/Kaletro Originals/Ducking Around.webp",
+      "nametag": "Kaletro Originals Ducking Around"
+    },
+    {
       "src": "Charts/Kiko Veneno/Lobo Lopez.webp",
       "nametag": "Kiko Veneno Lobo Lopez"
     },
@@ -32,12 +48,20 @@ const images = [
       "nametag": "La Cabra Mecánica Carne De Canción"
     },
     {
+      "src": "Charts/La Cabra Mecánica/Felicidad.webp",
+      "nametag": "La Cabra Mecánica Felicidad"
+    },
+    {
       "src": "Charts/La Cabra Mecánica/Shalala.webp",
       "nametag": "La Cabra Mecánica Shalala"
     },
     {
       "src": "Charts/La Oreja De Van Gogh/Rosas.webp",
       "nametag": "La Oreja De Van Gogh Rosas"
+    },
+    {
+      "src": "Charts/Melendi/Con La Luna Llena.webp",
+      "nametag": "Melendi Con La Luna Llena"
     },
     {
       "src": "Charts/Melendi/Curiosa La Cara De Tu Padre.webp",
