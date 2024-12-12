@@ -90,7 +90,6 @@ body {
     justify-content: center;
     align-items: center;
     z-index: 999; /* Modal above other content */
-    margin-top: 5px;
 }
 
 .modal-img {
@@ -101,11 +100,11 @@ body {
 /* Close Button */
 .close-btn {
     position: fixed;
-    top: 15px; /* Fixed to top-right corner */
-    right: 15px;
-    font-size: 22px; /* Large text for visibility */
+    top: 20px; /* Fixed to top-right corner */
+    right: 20px;
+    font-size: 25px; /* Large text for visibility */
     color: white;
-    background-color: red; /* Bright red background */
+    background-color: rgb(255, 118, 118); /* Bright red background */
     padding: 5px; /* Increased padding for a larger button */
     border-radius: 25%; /* Fully rounded button */
     border: 1px solid white; /* White border for contrast */
