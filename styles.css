@@ -90,6 +90,7 @@ body {
     justify-content: center;
     align-items: center;
     z-index: 999; /* Modal above other content */
+    margin-top: 5px;
 }
 
 .modal-img {
@@ -102,12 +103,12 @@ body {
     position: fixed;
     top: 15px; /* Fixed to top-right corner */
     right: 15px;
-    font-size: 30px; /* Large text for visibility */
+    font-size: 22px; /* Large text for visibility */
     color: white;
     background-color: red; /* Bright red background */
     padding: 5px; /* Increased padding for a larger button */
-    border-radius: 35%; /* Fully rounded button */
-    border: 2px solid white; /* White border for contrast */
+    border-radius: 25%; /* Fully rounded button */
+    border: 1px solid white; /* White border for contrast */
     z-index: 1000; /* Ensures it’s always visible */
     cursor: pointer; /* Pointer cursor for interactivity */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Optional shadow for better visibility */
