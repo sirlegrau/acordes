@@ -20,16 +20,56 @@ const images = [
       "nametag": "Fito y Fitipaldis A la Luna se le ve el ombligo"
     },
     {
+      "src": "Charts/Fito y Fitipaldis/Las Nubes de tu Pelo.webp",
+      "nametag": "Fito y Fitipaldis Las Nubes de tu Pelo"
+    },
+    {
       "src": "Charts/Fito y Fitipaldis/Por La Boca Vive El Pez.webp",
       "nametag": "Fito y Fitipaldis Por La Boca Vive El Pez"
+    },
+    {
+      "src": "Charts/Fito y Fitipaldis/Rojitas Las Orejas.webp",
+      "nametag": "Fito y Fitipaldis Rojitas Las Orejas"
+    },
+    {
+      "src": "Charts/Joaquin Sabina/19 Días y 500 Noches.webp",
+      "nametag": "Joaquin Sabina 19 Días y 500 Noches"
+    },
+    {
+      "src": "Charts/Joaquin Sabina/Arenas Movedizas.webp",
+      "nametag": "Joaquin Sabina Arenas Movedizas"
     },
     {
       "src": "Charts/Joaquin Sabina/Calle Melancolía.webp",
       "nametag": "Joaquin Sabina Calle Melancolía"
     },
     {
+      "src": "Charts/Joaquin Sabina/Dieguitos y Mafaldas.webp",
+      "nametag": "Joaquin Sabina Dieguitos y Mafaldas"
+    },
+    {
+      "src": "Charts/Joaquin Sabina/Donde Habita El Olvido.webp",
+      "nametag": "Joaquin Sabina Donde Habita El Olvido"
+    },
+    {
+      "src": "Charts/Joaquin Sabina/Nos Sobran Los Motivos.webp",
+      "nametag": "Joaquin Sabina Nos Sobran Los Motivos"
+    },
+    {
+      "src": "Charts/Joaquin Sabina/Rosa de Lima.webp",
+      "nametag": "Joaquin Sabina Rosa de Lima"
+    },
+    {
       "src": "Charts/Joaquin Sabina/Y Sin Embargo.webp",
       "nametag": "Joaquin Sabina Y Sin Embargo"
+    },
+    {
+      "src": "Charts/Juanito Makandé/Eres Para Mí.webp",
+      "nametag": "Juanito Makandé Eres Para Mí"
+    },
+    {
+      "src": "Charts/Juanito Makandé/Kamikaze.webp",
+      "nametag": "Juanito Makandé Kamikaze"
     },
     {
       "src": "Charts/Juanito Makandé/Niña Voladora.webp",
