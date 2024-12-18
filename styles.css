@@ -14,7 +14,7 @@ body {
 
 #search-container {
     position: sticky; /* Always visible */
-    top: 96px; /* Adjust to match the height of the button container */
+    top: 62px; /* Adjust to match the height of the button container */
     z-index: 150; /* Below the buttons but above the gallery */
     padding: 8px; /* Remove additional padding */
     margin: 0; /* Remove any margin */
@@ -174,8 +174,8 @@ footer {
   
   #gallery1-btn, #gallery2-btn {
     position: relative;
-    padding: 15px 30px;
-    font-size: 18px;
+    padding: 12px 25px;
+    font-size: 15px;
     font-weight: bold;
     border: 2px solid transparent;
     border-radius: 10px;
