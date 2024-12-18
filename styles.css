@@ -13,30 +13,31 @@ body {
 }
 
 #search-container {
-    position: sticky; /* Make the search bar sticky */
-    top: 0; /* Stick to the top of the screen */
-    z-index: 100; /* Ensure it stays above other content */
-    padding: 20px;
+    position: sticky; /* Always visible */
+    top: 50px; /* Adjust to match the height of the button container */
+    z-index: 150; /* Below the buttons but above the gallery */
+    padding: 8px; /* Remove additional padding */
+    margin: 0; /* Remove any margin */
     text-align: center;
     background-color: #121212; /* Match the background color */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Optional: Add a shadow for better visibility */
-}
-#search-bar {
-    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Optional: Add shadow for better visibility */
+  }
+  
+  #search-bar {
+    padding: 8px; /* Adjust padding for consistency */
     width: 100%;
-    margin-top: 3px;
-    margin-left: -11px;
-    max-width: 600px;  /* Limit the max width */
-    font-size: 16px;
+    margin: 0 auto;
+    max-width: 600px; /* Limit the max width */
+    font-size: 14px; /* Slightly smaller font size */
     border-radius: 5px;
-    border: 1px solid #555;  /* Darker border for input */
-    background-color: #333;  /* Dark background for input */
-    color: #f5f5f5;  /* Light text color for input */
-}
-
-#search-bar::placeholder {
-    color: #b0b0b0;  /* Lighter placeholder color */
-}
+    border: 1px solid #555; /* Darker border for input */
+    background-color: #333; /* Dark background for input */
+    color: #f5f5f5; /* Light text color for input */
+  }
+  
+  #search-bar::placeholder {
+    color: #b0b0b0; /* Lighter placeholder color */
+  }
 
 /* Gallery Styles */
 #gallery {
@@ -160,68 +161,50 @@ footer {
 }
 
 #button-container {
+    position: sticky; /* Always visible */
+    top: 0; /* Stick to the top of the viewport */
+    z-index: 200; /* Ensure it's above other elements */
     display: flex;
     justify-content: center;
-    gap: 20px; /* Larger gap between buttons */
-    padding: 20px 0; /* Space around buttons */
-    background-color: #1e1e1e; /* Match the background with a slight contrast */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Add shadow for a floating effect */
+    gap: 24px; /* Spacing between buttons */
+    padding: 10px; /* Padding around buttons */
+    background-color: #121212; /* Match background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Add shadow for visibility */
+    margin-bottom: 0; /* Remove any default margin at the bottom */
   }
   
   #gallery1-btn, #gallery2-btn {
-    position: relative;
-    padding: 15px 30px;
-    font-size: 18px;
-    font-weight: bold;
-    border: 2px solid transparent;
-    border-radius: 10px;
-    background: linear-gradient(45deg, #ff00cc, #3333ff);
+    padding: 8px 16px; /* Smaller padding */
+    font-size: 14px; /* Smaller font size */
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #ff7eb3, #ff758c); /* Eye-catching gradient */
     color: white;
+    font-weight: bold;
     cursor: pointer;
+    position: relative;
     overflow: hidden;
-    z-index: 1;
-    text-transform: uppercase;
-    transition: background 0.5s ease, color 0.5s ease, transform 0.3s ease;
+    transition: all 0.3s ease;
   }
   
   #gallery1-btn:hover, #gallery2-btn:hover {
-    background: linear-gradient(45deg, #3333ff, #ff00cc); /* Reverse gradient on hover */
-    transform: scale(1.2) rotate(-3deg); /* Scale and tilt for a crazy hover effect */
-    box-shadow: 0 10px 20px rgba(255, 0, 200, 0.7); /* Neon-like shadow */
-  }
-  
-  #gallery1-btn::before, #gallery2-btn::before {
-    content: "";
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.4), transparent);
-    transform: translate(-50%, -50%) rotate(45deg);
-    z-index: -1;
-    transition: opacity 0.3s ease;
-    opacity: 0;
-  }
-  
-  #gallery1-btn:hover::before, #gallery2-btn:hover::before {
-    opacity: 1;
+    background: linear-gradient(90deg, #ff355d, #ff658b); /* More intense gradient on hover */
+    transform: scale(1.1) rotate(-2deg); /* Slight enlarge and tilt */
+    box-shadow: 0 6px 12px rgba(255, 87, 136, 0.7); /* Add glow */
   }
   
   #gallery1-btn.active, #gallery2-btn.active {
-    background: linear-gradient(45deg, #ff0000, #ff9900); /* Bold colors for active state */
-    transform: scale(1.1); /* Slightly larger for the active button */
-    box-shadow: 0 8px 15px rgba(255, 150, 0, 0.8); /* Glow for the active button */
-    animation: pulse 1s infinite; /* Pulse effect for active button */
+    background: linear-gradient(90deg, #ffa69e, #ff6f61); /* Bold gradient for active */
+    transform: scale(1.15); /* Slightly larger for active state */
+    box-shadow: 0 8px 16px rgba(255, 105, 135, 0.8); /* Glowing shadow for active */
+    animation: heartbeat 1.5s infinite ease-in-out; /* Subtle heartbeat animation */
   }
   
-  @keyframes pulse {
+  @keyframes heartbeat {
     0%, 100% {
-      transform: scale(1.1);
-      box-shadow: 0 8px 15px rgba(255, 150, 0, 0.8);
+      transform: scale(1.15);
     }
     50% {
-      transform: scale(1.15);
-      box-shadow: 0 12px 20px rgba(255, 150, 0, 1);
+      transform: scale(1.2);
     }
   }
