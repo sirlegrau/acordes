@@ -20,8 +20,16 @@ const images = [
       "nametag": "Fito y Fitipaldis A la Luna se le ve el ombligo"
     },
     {
+      "src": "Charts/Fito y Fitipaldis/Acabo de Llegar.webp",
+      "nametag": "Fito y Fitipaldis Acabo de Llegar"
+    },
+    {
       "src": "Charts/Fito y Fitipaldis/Las Nubes de tu Pelo.webp",
       "nametag": "Fito y Fitipaldis Las Nubes de tu Pelo"
+    },
+    {
+      "src": "Charts/Fito y Fitipaldis/Me Acordé de Ti.webp",
+      "nametag": "Fito y Fitipaldis Me Acordé de Ti"
     },
     {
       "src": "Charts/Fito y Fitipaldis/Ojos De Serpiente.webp",
@@ -34,6 +42,10 @@ const images = [
     {
       "src": "Charts/Fito y Fitipaldis/Rojitas Las Orejas.webp",
       "nametag": "Fito y Fitipaldis Rojitas Las Orejas"
+    },
+    {
+      "src": "Charts/Fito y Fitipaldis/Soldadito Marinero.webp",
+      "nametag": "Fito y Fitipaldis Soldadito Marinero"
     },
     {
       "src": "Charts/Joaquin Sabina/19 Días y 500 Noches.webp",
