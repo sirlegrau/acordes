@@ -149,5 +149,17 @@ const gallery2Images = [
   {
     "src": "Charts/Jazz/All Of Me.webp",
     "nametag": "All Of Me"
+  },
+  {
+    "src": "Charts/Jazz/Autumn Leaves.webp",
+    "nametag": "Autumn Leaves"
+  },
+  {
+    "src": "Charts/Jazz/Fly Me To The Moon.webp",
+    "nametag": "Fly Me To The Moon"
+  },
+  {
+    "src": "Charts/Jazz/Girl From Ipanema.webp",
+    "nametag": "Girl From Ipanema"
   }
 ];
