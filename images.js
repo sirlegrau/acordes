@@ -24,6 +24,10 @@ const images = [
       "nametag": "Fito y Fitipaldis Las Nubes de tu Pelo"
     },
     {
+      "src": "Charts/Fito y Fitipaldis/Ojos De Serpiente.webp",
+      "nametag": "Fito y Fitipaldis Ojos De Serpiente"
+    },
+    {
       "src": "Charts/Fito y Fitipaldis/Por La Boca Vive El Pez.webp",
       "nametag": "Fito y Fitipaldis Por La Boca Vive El Pez"
     },
