@@ -229,3 +229,65 @@ footer {
       box-shadow: 0 12px 20px rgba(255, 150, 0, 1);
     }
   }
+
+  #random-btn {
+    position: relative;
+    padding: 12px 25px;
+    font-size: 15px; /* Keeps the text size consistent */
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background: linear-gradient(135deg, rgba(0, 255, 0, 0.6) 25%, rgba(0, 100, 0, 0.6) 25%, rgba(0, 100, 0, 0.6) 50%, rgba(0, 255, 0, 0.6) 50%, rgba(0, 255, 0, 0.6) 75%, rgba(0, 100, 0, 0.6) 75%);
+    background-size: 200% 200%;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    text-transform: uppercase;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: stripe-glow 3s linear infinite, button-glow 3s infinite ease-in-out; /* Two animations combined */
+}
+
+#random-btn:hover {
+    transform: scale(1.2) rotate(-3deg); /* Scale and tilt for dynamic hover effect */
+}
+
+#random-btn::after {
+    content: "🎲"; /* Dice emoji */
+    font-size: 1.8em; /* Larger dice icon */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: spin-dice 4s linear infinite; /* Slower spinning animation (4 seconds) */
+}
+
+/* Striped background animation */
+@keyframes stripe-glow {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%; /* Stripes scroll diagonally */
+    }
+}
+
+/* Glowing effect animation */
+@keyframes button-glow {
+    0%, 100% {
+        box-shadow: 0 0 10px rgba(0, 255, 0, 0.6), 0 0 20px rgba(0, 255, 0, 0.4), 0 0 30px rgba(0, 255, 0, 0.2);
+    }
+    50% {
+        box-shadow: 0 0 15px rgba(0, 255, 0, 0.8), 0 0 30px rgba(0, 255, 0, 0.6), 0 0 45px rgba(0, 255, 0, 0.4);
+    }
+}
+
+/* Slower spinning dice animation */
+@keyframes spin-dice {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}

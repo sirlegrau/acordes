@@ -81,5 +81,22 @@ gallery1Btn.addEventListener('click', () => {
     gallery1Btn.classList.remove('active');
   });
 
+  // Add an event listener for the Random button
+const randomBtn = document.getElementById('random-btn');
+
+randomBtn.addEventListener('click', () => {
+    if (currentGallery.length > 0) {
+        const randomIndex = Math.floor(Math.random() * currentGallery.length);
+        const randomImage = currentGallery[randomIndex];
+
+        // Open the modal with the random image
+        modal.style.display = 'flex';
+        modalImg.src = randomImage.src;
+    }
+});
+
+
 // Initialize by displaying Gallery 1
 displayImages(currentGallery);
+
+
