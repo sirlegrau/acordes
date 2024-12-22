@@ -8,6 +8,7 @@ const chartsDir = './Charts';
 function generateImages() {
   const categories = ['Repertorio', 'Jazz']; // Define categories to process
   const imagesData = {};
+  let totalFiles = 0; // Counter for total files written
 
   categories.forEach(category => {
     const categoryPath = path.join(chartsDir, category);
@@ -33,6 +34,7 @@ function generateImages() {
                 src: songPath.replace(/\\/g, '/'), // Correct path format
                 nametag: `${item} ${path.basename(song, '.webp')}` // Artist + song
               });
+              totalFiles++;
             }
           });
         } else if (path.extname(item) === '.webp') {
@@ -41,6 +43,7 @@ function generateImages() {
             src: itemPath.replace(/\\/g, '/'),
             nametag: path.basename(item, '.webp') // Only the song name
           });
+          totalFiles++;
         }
       });
     }
@@ -48,11 +51,11 @@ function generateImages() {
     imagesData[category] = images;
   });
 
-  return imagesData;
+  return { imagesData, totalFiles };
 }
 
 // Generate the images data
-const imagesData = generateImages();
+const { imagesData, totalFiles } = generateImages();
 
 // Write the data to images.js
 const outputPath = path.join(__dirname, 'images.js');
@@ -63,3 +66,4 @@ const gallery2Images = ${JSON.stringify(imagesData['Jazz'], null, 2)};
 
 fs.writeFileSync(outputPath, outputContent, 'utf8');
 console.log('Images data written to images.js successfully!');
+console.log(`Total number of files written: ${totalFiles}`);
