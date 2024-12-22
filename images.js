@@ -113,8 +113,16 @@ const gallery1Images = [
     "nametag": "Joaquin Sabina Donde Habita El Olvido"
   },
   {
+    "src": "Charts/Repertorio/Joaquin Sabina/Embustera.webp",
+    "nametag": "Joaquin Sabina Embustera"
+  },
+  {
     "src": "Charts/Repertorio/Joaquin Sabina/Nos Sobran Los Motivos.webp",
     "nametag": "Joaquin Sabina Nos Sobran Los Motivos"
+  },
+  {
+    "src": "Charts/Repertorio/Joaquin Sabina/Quien Me Ha Robado El Mes De Abril.webp",
+    "nametag": "Joaquin Sabina Quien Me Ha Robado El Mes De Abril"
   },
   {
     "src": "Charts/Repertorio/Joaquin Sabina/Rosa de Lima.webp",
