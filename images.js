@@ -5,6 +5,22 @@ const gallery1Images = [
     "nametag": "Alejandro Sanz Amiga Mía"
   },
   {
+    "src": "Charts/Repertorio/Alejandro Sanz/Corazón Partio.webp",
+    "nametag": "Alejandro Sanz Corazón Partio"
+  },
+  {
+    "src": "Charts/Repertorio/Alejandro Sanz/No es lo Mismo.webp",
+    "nametag": "Alejandro Sanz No es lo Mismo"
+  },
+  {
+    "src": "Charts/Repertorio/Alejandro Sanz/Y Sólo Se Me Ocurre Amarte.webp",
+    "nametag": "Alejandro Sanz Y Sólo Se Me Ocurre Amarte"
+  },
+  {
+    "src": "Charts/Repertorio/Alejandro Sanz/Y ¿Si fuera ella.webp",
+    "nametag": "Alejandro Sanz Y ¿Si fuera ella"
+  },
+  {
     "src": "Charts/Repertorio/El Canto Del Loco/Volverá.webp",
     "nametag": "El Canto Del Loco Volverá"
   },
@@ -47,6 +63,34 @@ const gallery1Images = [
   {
     "src": "Charts/Repertorio/Fito y Fitipaldis/Soldadito Marinero.webp",
     "nametag": "Fito y Fitipaldis Soldadito Marinero"
+  },
+  {
+    "src": "Charts/Repertorio/Jarabe de Palo/Agua.webp",
+    "nametag": "Jarabe de Palo Agua"
+  },
+  {
+    "src": "Charts/Repertorio/Jarabe de Palo/Dos Días en la Vida.webp",
+    "nametag": "Jarabe de Palo Dos Días en la Vida"
+  },
+  {
+    "src": "Charts/Repertorio/Jarabe de Palo/El Lado Oscuro.webp",
+    "nametag": "Jarabe de Palo El Lado Oscuro"
+  },
+  {
+    "src": "Charts/Repertorio/Jarabe de Palo/Eso Que Tu Me Das.webp",
+    "nametag": "Jarabe de Palo Eso Que Tu Me Das"
+  },
+  {
+    "src": "Charts/Repertorio/Jarabe de Palo/Grita.webp",
+    "nametag": "Jarabe de Palo Grita"
+  },
+  {
+    "src": "Charts/Repertorio/Jarabe de Palo/La Chica de Ipanema.webp",
+    "nametag": "Jarabe de Palo La Chica de Ipanema"
+  },
+  {
+    "src": "Charts/Repertorio/Jarabe de Palo/Perro Apaleao.webp",
+    "nametag": "Jarabe de Palo Perro Apaleao"
   },
   {
     "src": "Charts/Repertorio/Joaquin Sabina/19 Días y 500 Noches.webp",
@@ -111,6 +155,10 @@ const gallery1Images = [
   {
     "src": "Charts/Repertorio/La Cabra Mecánica/Shalala.webp",
     "nametag": "La Cabra Mecánica Shalala"
+  },
+  {
+    "src": "Charts/Repertorio/La Cabra Mecánica/Todo a Cien.webp",
+    "nametag": "La Cabra Mecánica Todo a Cien"
   },
   {
     "src": "Charts/Repertorio/La Oreja De Van Gogh/Rosas.webp",
