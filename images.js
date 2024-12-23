@@ -25,6 +25,22 @@ const gallery1Images = [
     "nametag": "El Canto Del Loco Volverá"
   },
   {
+    "src": "Charts/Repertorio/Els Pets/Bon Día.webp",
+    "nametag": "Els Pets Bon Día"
+  },
+  {
+    "src": "Charts/Repertorio/Els Pets/La Vida Es Bonica.webp",
+    "nametag": "Els Pets La Vida Es Bonica"
+  },
+  {
+    "src": "Charts/Repertorio/Els Pets/Tante Coses a Fer.webp",
+    "nametag": "Els Pets Tante Coses a Fer"
+  },
+  {
+    "src": "Charts/Repertorio/Els Pets/Una Estona de Cel.webp",
+    "nametag": "Els Pets Una Estona de Cel"
+  },
+  {
     "src": "Charts/Repertorio/Estopa/Apagón.webp",
     "nametag": "Estopa Apagón"
   },
@@ -179,6 +195,10 @@ const gallery1Images = [
   {
     "src": "Charts/Repertorio/Melendi/Curiosa La Cara De Tu Padre.webp",
     "nametag": "Melendi Curiosa La Cara De Tu Padre"
+  },
+  {
+    "src": "Charts/Repertorio/Mr. Kilombo/Contra Todo Pronóstico.webp",
+    "nametag": "Mr. Kilombo Contra Todo Pronóstico"
   },
   {
     "src": "Charts/Repertorio/Navajita Plateá/Noches de Bohemia.webp",
