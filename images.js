@@ -189,6 +189,30 @@ const gallery1Images = [
     "nametag": "La Oreja De Van Gogh Rosas"
   },
   {
+    "src": "Charts/Repertorio/Los Delinquentes/Chiclana.webp",
+    "nametag": "Los Delinquentes Chiclana"
+  },
+  {
+    "src": "Charts/Repertorio/Los Delinquentes/De Los Matorrales.webp",
+    "nametag": "Los Delinquentes De Los Matorrales"
+  },
+  {
+    "src": "Charts/Repertorio/Los Delinquentes/La Primavera Trompetera.webp",
+    "nametag": "Los Delinquentes La Primavera Trompetera"
+  },
+  {
+    "src": "Charts/Repertorio/Los Delinquentes/Oh Mare.webp",
+    "nametag": "Los Delinquentes Oh Mare"
+  },
+  {
+    "src": "Charts/Repertorio/Manolo García/A San Fernando, un ratito a pie y otro andando.webp",
+    "nametag": "Manolo García A San Fernando, un ratito a pie y otro andando"
+  },
+  {
+    "src": "Charts/Repertorio/Manolo García/Pajaros de Barro.webp",
+    "nametag": "Manolo García Pajaros de Barro"
+  },
+  {
     "src": "Charts/Repertorio/Melendi/Con La Luna Llena.webp",
     "nametag": "Melendi Con La Luna Llena"
   },
