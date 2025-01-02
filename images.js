@@ -21,6 +21,14 @@ const gallery1Images = [
     "nametag": "Alejandro Sanz Y ¿Si fuera ella"
   },
   {
+    "src": "Charts/Repertorio/El Canto Del Loco/La Suerte de mi Vida.webp",
+    "nametag": "El Canto Del Loco La Suerte de mi Vida"
+  },
+  {
+    "src": "Charts/Repertorio/El Canto Del Loco/Una Foto En Blanco y Negro.webp",
+    "nametag": "El Canto Del Loco Una Foto En Blanco y Negro"
+  },
+  {
     "src": "Charts/Repertorio/El Canto Del Loco/Volverá.webp",
     "nametag": "El Canto Del Loco Volverá"
   },
@@ -79,6 +87,10 @@ const gallery1Images = [
   {
     "src": "Charts/Repertorio/Fito y Fitipaldis/Soldadito Marinero.webp",
     "nametag": "Fito y Fitipaldis Soldadito Marinero"
+  },
+  {
+    "src": "Charts/Repertorio/Ginestá/Estimar-te Com La Terra.webp",
+    "nametag": "Ginestá Estimar-te Com La Terra"
   },
   {
     "src": "Charts/Repertorio/Jarabe de Palo/Agua.webp",
@@ -209,6 +221,10 @@ const gallery1Images = [
     "nametag": "Manolo García A San Fernando, un ratito a pie y otro andando"
   },
   {
+    "src": "Charts/Repertorio/Manolo García/Como Un Burro Amarrado.webp",
+    "nametag": "Manolo García Como Un Burro Amarrado"
+  },
+  {
     "src": "Charts/Repertorio/Manolo García/Pajaros de Barro.webp",
     "nametag": "Manolo García Pajaros de Barro"
   },
@@ -219,6 +235,10 @@ const gallery1Images = [
   {
     "src": "Charts/Repertorio/Melendi/Curiosa La Cara De Tu Padre.webp",
     "nametag": "Melendi Curiosa La Cara De Tu Padre"
+  },
+  {
+    "src": "Charts/Repertorio/Melendi/Un Vieolinista en el Tejado.webp",
+    "nametag": "Melendi Un Vieolinista en el Tejado"
   },
   {
     "src": "Charts/Repertorio/Mr. Kilombo/Contra Todo Pronóstico.webp",
@@ -235,6 +255,10 @@ const gallery1Images = [
   {
     "src": "Charts/Repertorio/Rosario/Como Quieres Que Te Quiera.webp",
     "nametag": "Rosario Como Quieres Que Te Quiera"
+  },
+  {
+    "src": "Charts/Repertorio/Sau/Boig Per Tu.webp",
+    "nametag": "Sau Boig Per Tu"
   },
   {
     "src": "Charts/Repertorio/Sopa De Cabra/El Far Del Sud.webp",
