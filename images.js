@@ -279,11 +279,51 @@ const gallery2Images = [
     "nametag": "Autumn Leaves"
   },
   {
+    "src": "Charts/Jazz/Beautiful Love.webp",
+    "nametag": "Beautiful Love"
+  },
+  {
+    "src": "Charts/Jazz/Blue Bossa.webp",
+    "nametag": "Blue Bossa"
+  },
+  {
+    "src": "Charts/Jazz/Caravan.webp",
+    "nametag": "Caravan"
+  },
+  {
+    "src": "Charts/Jazz/Corcovado.webp",
+    "nametag": "Corcovado"
+  },
+  {
+    "src": "Charts/Jazz/Days Of Wine And Roses.webp",
+    "nametag": "Days Of Wine And Roses"
+  },
+  {
     "src": "Charts/Jazz/Fly Me To The Moon.webp",
     "nametag": "Fly Me To The Moon"
   },
   {
     "src": "Charts/Jazz/Girl From Ipanema.webp",
     "nametag": "Girl From Ipanema"
+  },
+  {
+    "src": "Charts/Jazz/How Insensitive.webp",
+    "nametag": "How Insensitive"
+  },
+  {
+    "src": "Charts/Jazz/Isn't She Lovely.webp",
+    "nametag": "Isn't She Lovely"
+  },
+  {
+    "src": "Charts/Jazz/Just Friends.webp",
+    "nametag": "Just Friends"
+  },
+  {
+    "src": "Charts/Jazz/Misty.webp",
+    "nametag": "Misty"
+  },
+  {
+    "src": "Charts/Jazz/Tune Up.webp",
+    "nametag": "Tune Up"
   }
 ];
