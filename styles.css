@@ -538,3 +538,18 @@ footer {
         margin-top: 15px;
     }
 }
+.kofi-button {
+    display: inline-block;
+    background: #29abe0;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.kofi-button:hover {
+    background: #1d8cb8;
+    transform: translateY(-2px);
+}
