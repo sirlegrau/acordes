@@ -271,20 +271,144 @@ const gallery1Images = [
 ];
 const gallery2Images = [
   {
+    "src": "Charts/Jazz/Afro Blue.webp",
+    "nametag": "Afro Blue"
+  },
+  {
+    "src": "Charts/Jazz/Afternoon In Paris.webp",
+    "nametag": "Afternoon In Paris"
+  },
+  {
+    "src": "Charts/Jazz/Airegin.webp",
+    "nametag": "Airegin"
+  },
+  {
+    "src": "Charts/Jazz/All Blues.webp",
+    "nametag": "All Blues"
+  },
+  {
     "src": "Charts/Jazz/All Of Me.webp",
     "nametag": "All Of Me"
+  },
+  {
+    "src": "Charts/Jazz/All Of You.webp",
+    "nametag": "All Of You"
+  },
+  {
+    "src": "Charts/Jazz/All The Things You Are.webp",
+    "nametag": "All The Things You Are"
+  },
+  {
+    "src": "Charts/Jazz/Alone Together.webp",
+    "nametag": "Alone Together"
+  },
+  {
+    "src": "Charts/Jazz/Along Came Betty.webp",
+    "nametag": "Along Came Betty"
+  },
+  {
+    "src": "Charts/Jazz/Angel Eyes.webp",
+    "nametag": "Angel Eyes"
+  },
+  {
+    "src": "Charts/Jazz/Anthropology.webp",
+    "nametag": "Anthropology"
+  },
+  {
+    "src": "Charts/Jazz/As Time Goes By.webp",
+    "nametag": "As Time Goes By"
+  },
+  {
+    "src": "Charts/Jazz/Au Privave.webp",
+    "nametag": "Au Privave"
   },
   {
     "src": "Charts/Jazz/Autumn Leaves.webp",
     "nametag": "Autumn Leaves"
   },
   {
+    "src": "Charts/Jazz/Back Home Again In.webp",
+    "nametag": "Back Home Again In"
+  },
+  {
+    "src": "Charts/Jazz/Bags Groove.webp",
+    "nametag": "Bags Groove"
+  },
+  {
+    "src": "Charts/Jazz/Beatrice.webp",
+    "nametag": "Beatrice"
+  },
+  {
     "src": "Charts/Jazz/Beautiful Love.webp",
     "nametag": "Beautiful Love"
   },
   {
+    "src": "Charts/Jazz/Bernie's Tune.webp",
+    "nametag": "Bernie's Tune"
+  },
+  {
+    "src": "Charts/Jazz/Bessie's Blues.webp",
+    "nametag": "Bessie's Blues"
+  },
+  {
+    "src": "Charts/Jazz/Billie's Bounce.webp",
+    "nametag": "Billie's Bounce"
+  },
+  {
+    "src": "Charts/Jazz/Birk's Works.webp",
+    "nametag": "Birk's Works"
+  },
+  {
+    "src": "Charts/Jazz/Black Orpheus.webp",
+    "nametag": "Black Orpheus"
+  },
+  {
     "src": "Charts/Jazz/Blue Bossa.webp",
     "nametag": "Blue Bossa"
+  },
+  {
+    "src": "Charts/Jazz/Blue In Green.webp",
+    "nametag": "Blue In Green"
+  },
+  {
+    "src": "Charts/Jazz/Blue Monk.webp",
+    "nametag": "Blue Monk"
+  },
+  {
+    "src": "Charts/Jazz/Blue Train.webp",
+    "nametag": "Blue Train"
+  },
+  {
+    "src": "Charts/Jazz/Blues By Five.webp",
+    "nametag": "Blues By Five"
+  },
+  {
+    "src": "Charts/Jazz/Blues For Alice.webp",
+    "nametag": "Blues For Alice"
+  },
+  {
+    "src": "Charts/Jazz/Blues In The Closet.webp",
+    "nametag": "Blues In The Closet"
+  },
+  {
+    "src": "Charts/Jazz/Bluesette.webp",
+    "nametag": "Bluesette"
+  },
+  {
+    "src": "Charts/Jazz/Body and Soul.webp",
+    "nametag": "Body and Soul"
+  },
+  {
+    "src": "Charts/Jazz/Broadway.webp",
+    "nametag": "Broadway"
+  },
+  {
+    "src": "Charts/Jazz/But Not For Me.webp",
+    "nametag": "But Not For Me"
+  },
+  {
+    "src": "Charts/Jazz/Bye Bye Blackbyrd.webp",
+    "nametag": "Bye Bye Blackbyrd"
   },
   {
     "src": "Charts/Jazz/Caravan.webp",
