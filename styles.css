@@ -54,6 +54,7 @@ body {
     padding: 15px;
     background-color: #121212;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    flex-wrap: nowrap; /* Force no wrapping */
 }
 
 /* Gallery Buttons */
@@ -514,7 +515,43 @@ footer {
         background-position: 300% 50%;
     }
 }
+/* Button Container */
+#button-container {
+    position: sticky;
+    top: 0;
+    z-index: 200;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 15px;
+    background-color: #121212;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    flex-wrap: nowrap; /* Force no wrapping */
+}
 
+/* Media queries */
+@media (max-width: 600px) {
+    #button-container {
+        gap: 5px; /* Further reduce the gap for mobile */
+        padding: 10px 5px; /* Reduce padding for mobile */
+        justify-content: space-around; /* Distribute space evenly */
+    }
+
+    #gallery1-btn, #gallery2-btn, #random-btn {
+        /* Make buttons even smaller for mobile */
+        padding: 8px 10px;
+        font-size: 12px; /* Smaller font size */
+        min-width: 0; /* Allow buttons to shrink if needed */
+        flex: 0 1 auto; /* Allow buttons to shrink but not grow */
+    }
+
+    #random-btn {
+        /* Ensure the random button isn't larger than necessary */
+        padding: 8px; /* Equal padding on all sides */
+        width: 36px; /* Fixed width */
+        height: 36px; /* Fixed height */
+    }
+}
 /* Media queries */
 @media (min-width: 600px) {
     .benefits-container {
