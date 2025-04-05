@@ -9,6 +9,28 @@ const searchBar = document.getElementById('search-bar');
 const gallery1Btn = document.getElementById('gallery1-btn');
 const gallery2Btn = document.getElementById('gallery2-btn');
 
+// Get the About modal elements
+const aboutModal = document.getElementById("about-modal");
+const aboutBtn = document.getElementById("about-btn");
+const aboutCloseBtn = document.getElementById("about-close-btn");
+
+// Open the About modal when the button is clicked
+aboutBtn.addEventListener("click", function() {
+    aboutModal.style.display = "block";
+});
+
+// Close the About modal when the close button is clicked
+aboutCloseBtn.addEventListener("click", function() {
+    aboutModal.style.display = "none";
+});
+
+// Close the About modal when clicking outside of it
+window.addEventListener("click", function(event) {
+    if (event.target === aboutModal) {
+        aboutModal.style.display = "none";
+    }
+});
+
 // Current gallery variable
 let currentGallery = gallery1Images;
 

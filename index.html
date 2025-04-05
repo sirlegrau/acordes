@@ -1,41 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>🎸music charts🎹</title>
-  <link rel="icon" type="image/x-icon" href="footer.webp">
-  <link rel="stylesheet" href="styles.css">  <!-- Link to the CSS file -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎸music charts🎹</title>
+    <link rel="icon" type="image/x-icon" href="footer.webp">
+    <link rel="stylesheet" href="styles.css">  <!-- Link to the CSS file -->
 </head>
 <body>
 
-    <div id="button-container">
-        <button id="gallery1-btn" class="active">REPERTOIRE</button>
-        <button id="gallery2-btn">SOCIAL MUSIC</button>
-        <button id="random-btn">🎲</button>
-    </div>
-    
-      <div id="search-container">
-        <input type="text" id="search-bar" placeholder="Search among 100 charts..." />
-      </div>
-    
+<div id="button-container">
+    <button id="gallery1-btn" class="active">REPERTOIRE</button>
+    <button id="gallery2-btn">SOCIAL MUSIC</button>
+    <button id="random-btn">🎲</button>
+</div>
 
-  <div id="gallery"></div>  <!-- This is where the images will be displayed -->
+<div id="search-container">
+    <input type="text" id="search-bar" placeholder="Search among 100 charts..." />
+</div>
 
-  <!-- The Modal for fullscreen image -->
-  <div id="modal" class="modal">
+
+<div id="gallery"></div>  <!-- This is where the images will be displayed -->
+
+<!-- The Modal for fullscreen image -->
+<div id="modal" class="modal">
     <span id="close-btn" class="close-btn">&times;</span>
     <img id="modal-img" class="modal-img" />
-  </div>
+</div>
 
-  <!-- Footer (with the "Request a Song" button) -->
-  <footer>
+<!-- About Modal -->
+<div id="about-modal" class="modal">
+    <span id="about-close-btn" class="close-btn">&times;</span>
+    <div class="modal-content">
+        <div class="header-text">
+            <p>TIRED OF ULTIMATE-GUITAR, LACUERDA AND CIFRACLUB?</p>
+        </div>
+        <div class="highlight-text">
+            <p>START PLAYING YOUR FAVORITE SONGS IN SECONDS!</p>
+        </div>
+        <div class="benefits-container">
+            <div class="cons">
+                <p>❌ NO ADS</p>
+                <p>❌ NO SCROLLING DOWN</p>
+                <p>❌ NO LOADING TIMES</p>
+            </div>
+            <div class="pros">
+                <p>✅ FOCUS ON PLAYING</p>
+                <p>✅ TRANSPOSED CHARTS</p>
+                <p>✅ 50kb LOW-SIZE IMAGES</p>
+            </div>
+        </div>
+        <p class="tagline">musiccharts.xyz Play more. Wait less.</p>
+    </div>
+</div>
+
+<!-- Footer (with both buttons) -->
+<footer>
     <a href="mailto:orionteller93@gmail.com?subject=REQUESTASONG" class="mailto-button">🎵 Request a Song 😁</a>
-  </footer>
+    <button id="about-btn" class="about-button">About</button>
+</footer>
 
-  <!-- JavaScript files -->
-  <script src="images.js"></script>   <!-- Link to the images data file -->
-  <script src="app.js"></script>      <!-- Link to the JavaScript logic file -->
+<!-- JavaScript files -->
+<script src="images.js"></script>   <!-- Link to the images data file -->
+<script src="app.js"></script>      <!-- Link to the JavaScript logic file -->
 
 </body>
 </html>
