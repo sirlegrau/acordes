@@ -14,31 +14,37 @@ let currentGallery = gallery1Images;
 
 // Function to create and display images in the gallery
 function displayImages(filteredImages) {
-  gallery.innerHTML = ''; // Clear the gallery before re-adding the images
-  filteredImages.forEach(image => {
-    const galleryItem = document.createElement('div');
-    galleryItem.classList.add('gallery-item');
+    gallery.innerHTML = ''; // Clear the gallery before re-adding the images
+    filteredImages.forEach(image => {
+        const galleryItem = document.createElement('div');
+        galleryItem.classList.add('gallery-item');
 
-    const imgElement = document.createElement('img');
-    imgElement.src = image.src;
-    imgElement.alt = image.nametag;
-    imgElement.title = image.nametag;
+        const imgElement = document.createElement('img');
+        imgElement.src = image.src;
+        imgElement.alt = image.nametag;
+        imgElement.title = image.nametag;
 
-    const infoElement = document.createElement('div');
-    infoElement.classList.add('info');
-    const artistName = image.nametag.split(' ')[0];
-    const songName = image.nametag.split(' ').slice(1).join(' ');
-    infoElement.innerHTML = `${artistName}  ${songName}`;
+        // Extract artist name from the directory path
+        const pathParts = image.src.split('/');
+        const artistName = pathParts[pathParts.length - 2]; // Get the directory name (artist)
 
-    imgElement.addEventListener('click', () => {
-      modal.style.display = 'flex';
-      modalImg.src = image.src;
+        // Extract song name from the filename (remove extension)
+        const fileNameWithExt = pathParts[pathParts.length - 1];
+        const songName = fileNameWithExt.replace('.webp', '');
+
+        const infoElement = document.createElement('div');
+        infoElement.classList.add('info');
+        infoElement.innerHTML = `${artistName} - ${songName}`;
+
+        imgElement.addEventListener('click', () => {
+            modal.style.display = 'flex';
+            modalImg.src = image.src;
+        });
+
+        galleryItem.appendChild(imgElement);
+        galleryItem.appendChild(infoElement);
+        gallery.appendChild(galleryItem);
     });
-
-    galleryItem.appendChild(imgElement);
-    galleryItem.appendChild(infoElement);
-    gallery.appendChild(galleryItem);
-  });
 }
 
 // Function to close the modal

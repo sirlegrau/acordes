@@ -271,183 +271,183 @@ const gallery1Images = [
 ];
 const gallery2Images = [
   {
-    "src": "Charts/Jazz/Afro Blue.webp",
-    "nametag": "Afro Blue"
+    "src": "Charts/Jazz/Jazz Standard/Afro Blue.webp",
+    "nametag": "Jazz Standard Afro Blue"
   },
   {
-    "src": "Charts/Jazz/Afternoon In Paris.webp",
-    "nametag": "Afternoon In Paris"
+    "src": "Charts/Jazz/Jazz Standard/Afternoon In Paris.webp",
+    "nametag": "Jazz Standard Afternoon In Paris"
   },
   {
-    "src": "Charts/Jazz/Airegin.webp",
-    "nametag": "Airegin"
+    "src": "Charts/Jazz/Jazz Standard/Airegin.webp",
+    "nametag": "Jazz Standard Airegin"
   },
   {
-    "src": "Charts/Jazz/All Blues.webp",
-    "nametag": "All Blues"
+    "src": "Charts/Jazz/Jazz Standard/All Blues.webp",
+    "nametag": "Jazz Standard All Blues"
   },
   {
-    "src": "Charts/Jazz/All Of Me.webp",
-    "nametag": "All Of Me"
+    "src": "Charts/Jazz/Jazz Standard/All Of Me.webp",
+    "nametag": "Jazz Standard All Of Me"
   },
   {
-    "src": "Charts/Jazz/All Of You.webp",
-    "nametag": "All Of You"
+    "src": "Charts/Jazz/Jazz Standard/All Of You.webp",
+    "nametag": "Jazz Standard All Of You"
   },
   {
-    "src": "Charts/Jazz/All The Things You Are.webp",
-    "nametag": "All The Things You Are"
+    "src": "Charts/Jazz/Jazz Standard/All The Things You Are.webp",
+    "nametag": "Jazz Standard All The Things You Are"
   },
   {
-    "src": "Charts/Jazz/Alone Together.webp",
-    "nametag": "Alone Together"
+    "src": "Charts/Jazz/Jazz Standard/Alone Together.webp",
+    "nametag": "Jazz Standard Alone Together"
   },
   {
-    "src": "Charts/Jazz/Along Came Betty.webp",
-    "nametag": "Along Came Betty"
+    "src": "Charts/Jazz/Jazz Standard/Along Came Betty.webp",
+    "nametag": "Jazz Standard Along Came Betty"
   },
   {
-    "src": "Charts/Jazz/Angel Eyes.webp",
-    "nametag": "Angel Eyes"
+    "src": "Charts/Jazz/Jazz Standard/Angel Eyes.webp",
+    "nametag": "Jazz Standard Angel Eyes"
   },
   {
-    "src": "Charts/Jazz/Anthropology.webp",
-    "nametag": "Anthropology"
+    "src": "Charts/Jazz/Jazz Standard/Anthropology.webp",
+    "nametag": "Jazz Standard Anthropology"
   },
   {
-    "src": "Charts/Jazz/As Time Goes By.webp",
-    "nametag": "As Time Goes By"
+    "src": "Charts/Jazz/Jazz Standard/As Time Goes By.webp",
+    "nametag": "Jazz Standard As Time Goes By"
   },
   {
-    "src": "Charts/Jazz/Au Privave.webp",
-    "nametag": "Au Privave"
+    "src": "Charts/Jazz/Jazz Standard/Au Privave.webp",
+    "nametag": "Jazz Standard Au Privave"
   },
   {
-    "src": "Charts/Jazz/Autumn Leaves.webp",
-    "nametag": "Autumn Leaves"
+    "src": "Charts/Jazz/Jazz Standard/Autumn Leaves.webp",
+    "nametag": "Jazz Standard Autumn Leaves"
   },
   {
-    "src": "Charts/Jazz/Back Home Again In.webp",
-    "nametag": "Back Home Again In"
+    "src": "Charts/Jazz/Jazz Standard/Back Home Again In.webp",
+    "nametag": "Jazz Standard Back Home Again In"
   },
   {
-    "src": "Charts/Jazz/Bags Groove.webp",
-    "nametag": "Bags Groove"
+    "src": "Charts/Jazz/Jazz Standard/Bags Groove.webp",
+    "nametag": "Jazz Standard Bags Groove"
   },
   {
-    "src": "Charts/Jazz/Beatrice.webp",
-    "nametag": "Beatrice"
+    "src": "Charts/Jazz/Jazz Standard/Beatrice.webp",
+    "nametag": "Jazz Standard Beatrice"
   },
   {
-    "src": "Charts/Jazz/Beautiful Love.webp",
-    "nametag": "Beautiful Love"
+    "src": "Charts/Jazz/Jazz Standard/Beautiful Love.webp",
+    "nametag": "Jazz Standard Beautiful Love"
   },
   {
-    "src": "Charts/Jazz/Bernie's Tune.webp",
-    "nametag": "Bernie's Tune"
+    "src": "Charts/Jazz/Jazz Standard/Bernie's Tune.webp",
+    "nametag": "Jazz Standard Bernie's Tune"
   },
   {
-    "src": "Charts/Jazz/Bessie's Blues.webp",
-    "nametag": "Bessie's Blues"
+    "src": "Charts/Jazz/Jazz Standard/Bessie's Blues.webp",
+    "nametag": "Jazz Standard Bessie's Blues"
   },
   {
-    "src": "Charts/Jazz/Billie's Bounce.webp",
-    "nametag": "Billie's Bounce"
+    "src": "Charts/Jazz/Jazz Standard/Billie's Bounce.webp",
+    "nametag": "Jazz Standard Billie's Bounce"
   },
   {
-    "src": "Charts/Jazz/Birk's Works.webp",
-    "nametag": "Birk's Works"
+    "src": "Charts/Jazz/Jazz Standard/Birk's Works.webp",
+    "nametag": "Jazz Standard Birk's Works"
   },
   {
-    "src": "Charts/Jazz/Black Orpheus.webp",
-    "nametag": "Black Orpheus"
+    "src": "Charts/Jazz/Jazz Standard/Black Orpheus.webp",
+    "nametag": "Jazz Standard Black Orpheus"
   },
   {
-    "src": "Charts/Jazz/Blue Bossa.webp",
-    "nametag": "Blue Bossa"
+    "src": "Charts/Jazz/Jazz Standard/Blue Bossa.webp",
+    "nametag": "Jazz Standard Blue Bossa"
   },
   {
-    "src": "Charts/Jazz/Blue In Green.webp",
-    "nametag": "Blue In Green"
+    "src": "Charts/Jazz/Jazz Standard/Blue In Green.webp",
+    "nametag": "Jazz Standard Blue In Green"
   },
   {
-    "src": "Charts/Jazz/Blue Monk.webp",
-    "nametag": "Blue Monk"
+    "src": "Charts/Jazz/Jazz Standard/Blue Monk.webp",
+    "nametag": "Jazz Standard Blue Monk"
   },
   {
-    "src": "Charts/Jazz/Blue Train.webp",
-    "nametag": "Blue Train"
+    "src": "Charts/Jazz/Jazz Standard/Blue Train.webp",
+    "nametag": "Jazz Standard Blue Train"
   },
   {
-    "src": "Charts/Jazz/Blues By Five.webp",
-    "nametag": "Blues By Five"
+    "src": "Charts/Jazz/Jazz Standard/Blues By Five.webp",
+    "nametag": "Jazz Standard Blues By Five"
   },
   {
-    "src": "Charts/Jazz/Blues For Alice.webp",
-    "nametag": "Blues For Alice"
+    "src": "Charts/Jazz/Jazz Standard/Blues For Alice.webp",
+    "nametag": "Jazz Standard Blues For Alice"
   },
   {
-    "src": "Charts/Jazz/Blues In The Closet.webp",
-    "nametag": "Blues In The Closet"
+    "src": "Charts/Jazz/Jazz Standard/Blues In The Closet.webp",
+    "nametag": "Jazz Standard Blues In The Closet"
   },
   {
-    "src": "Charts/Jazz/Bluesette.webp",
-    "nametag": "Bluesette"
+    "src": "Charts/Jazz/Jazz Standard/Bluesette.webp",
+    "nametag": "Jazz Standard Bluesette"
   },
   {
-    "src": "Charts/Jazz/Body and Soul.webp",
-    "nametag": "Body and Soul"
+    "src": "Charts/Jazz/Jazz Standard/Body and Soul.webp",
+    "nametag": "Jazz Standard Body and Soul"
   },
   {
-    "src": "Charts/Jazz/Broadway.webp",
-    "nametag": "Broadway"
+    "src": "Charts/Jazz/Jazz Standard/Broadway.webp",
+    "nametag": "Jazz Standard Broadway"
   },
   {
-    "src": "Charts/Jazz/But Not For Me.webp",
-    "nametag": "But Not For Me"
+    "src": "Charts/Jazz/Jazz Standard/But Not For Me.webp",
+    "nametag": "Jazz Standard But Not For Me"
   },
   {
-    "src": "Charts/Jazz/Bye Bye Blackbyrd.webp",
-    "nametag": "Bye Bye Blackbyrd"
+    "src": "Charts/Jazz/Jazz Standard/Bye Bye Blackbyrd.webp",
+    "nametag": "Jazz Standard Bye Bye Blackbyrd"
   },
   {
-    "src": "Charts/Jazz/Caravan.webp",
-    "nametag": "Caravan"
+    "src": "Charts/Jazz/Jazz Standard/Caravan.webp",
+    "nametag": "Jazz Standard Caravan"
   },
   {
-    "src": "Charts/Jazz/Corcovado.webp",
-    "nametag": "Corcovado"
+    "src": "Charts/Jazz/Jazz Standard/Corcovado.webp",
+    "nametag": "Jazz Standard Corcovado"
   },
   {
-    "src": "Charts/Jazz/Days Of Wine And Roses.webp",
-    "nametag": "Days Of Wine And Roses"
+    "src": "Charts/Jazz/Jazz Standard/Days Of Wine And Roses.webp",
+    "nametag": "Jazz Standard Days Of Wine And Roses"
   },
   {
-    "src": "Charts/Jazz/Fly Me To The Moon.webp",
-    "nametag": "Fly Me To The Moon"
+    "src": "Charts/Jazz/Jazz Standard/Fly Me To The Moon.webp",
+    "nametag": "Jazz Standard Fly Me To The Moon"
   },
   {
-    "src": "Charts/Jazz/Girl From Ipanema.webp",
-    "nametag": "Girl From Ipanema"
+    "src": "Charts/Jazz/Jazz Standard/Girl From Ipanema.webp",
+    "nametag": "Jazz Standard Girl From Ipanema"
   },
   {
-    "src": "Charts/Jazz/How Insensitive.webp",
-    "nametag": "How Insensitive"
+    "src": "Charts/Jazz/Jazz Standard/How Insensitive.webp",
+    "nametag": "Jazz Standard How Insensitive"
   },
   {
-    "src": "Charts/Jazz/Isn't She Lovely.webp",
-    "nametag": "Isn't She Lovely"
+    "src": "Charts/Jazz/Jazz Standard/Isn't She Lovely.webp",
+    "nametag": "Jazz Standard Isn't She Lovely"
   },
   {
-    "src": "Charts/Jazz/Just Friends.webp",
-    "nametag": "Just Friends"
+    "src": "Charts/Jazz/Jazz Standard/Just Friends.webp",
+    "nametag": "Jazz Standard Just Friends"
   },
   {
-    "src": "Charts/Jazz/Misty.webp",
-    "nametag": "Misty"
+    "src": "Charts/Jazz/Jazz Standard/Misty.webp",
+    "nametag": "Jazz Standard Misty"
   },
   {
-    "src": "Charts/Jazz/Tune Up.webp",
-    "nametag": "Tune Up"
+    "src": "Charts/Jazz/Jazz Standard/Tune Up.webp",
+    "nametag": "Jazz Standard Tune Up"
   }
 ];
