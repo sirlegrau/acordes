@@ -2,183 +2,56 @@
 /* Reset and set basic styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #121212;
-    color: #e0e0e0;
+    background-color: #121212;  /* Dark background for body */
+    color: #e0e0e0;  /* Light text color */
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    flex-direction: column; /* Stack content vertically */
+    min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
 }
 
-/* Common button and element styles */
-.neon-element {
-    position: relative;
-    border-radius: 10px;
-    color: white;
-    overflow: hidden;
-    z-index: 1;
-    transition: all 0.3s ease;
-    box-shadow: 0 0 15px rgba(0, 242, 96, 0.5);
-}
-
-.neon-element:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
-    transition: 0.5s;
-    z-index: -1;
-}
-
-.neon-element:hover:before {
-    left: 100%;
-}
-
-.neon-element:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 7px 20px rgba(5, 117, 230, 0.6);
-}
-
-/* Button Container */
-#button-container {
-    position: sticky;
-    top: 0;
-    z-index: 200;
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-    padding: 15px;
-    background-color: #121212;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
-    flex-wrap: nowrap; /* Force no wrapping */
-}
-
-/* Gallery Buttons */
-#gallery1-btn, #gallery2-btn {
-    padding: 12px 25px;
-    font-size: 15px;
-    font-weight: bold;
-    border: none;
-    border-radius: 10px;
-    background: linear-gradient(135deg, #00f260, #0575e6);
-    color: white;
-    cursor: pointer;
-    text-transform: uppercase;
-    box-shadow: 0 0 15px rgba(0, 242, 96, 0.5);
-}
-
-#gallery1-btn:hover, #gallery2-btn:hover {
-    background: linear-gradient(135deg, #0575e6, #00f260);
-    transform: scale(1.1);
-    box-shadow: 0 0 20px rgba(5, 117, 230, 0.7);
-}
-
-#gallery1-btn.active, #gallery2-btn.active {
-    background: linear-gradient(135deg, #ff00cc, #3333ff);
-    transform: scale(1.1);
-    box-shadow: 0 0 25px rgba(255, 0, 204, 0.6);
-    animation: activeButtonGlow 2s infinite alternate;
-}
-
-@keyframes activeButtonGlow {
-    0% {
-        box-shadow: 0 0 15px rgba(255, 0, 204, 0.6);
-    }
-    100% {
-        box-shadow: 0 0 30px rgba(255, 0, 204, 0.9);
-    }
-}
-
-/* Random Button */
-#random-btn {
-    padding: 12px 25px;
-    font-size: 15px;
-    font-weight: bold;
-    border: none;
-    border-radius: 10px;
-    background: linear-gradient(135deg, #ff00cc, #3333ff);
-    color: white;
-    cursor: pointer;
-    text-transform: uppercase;
-    box-shadow: 0 0 15px rgba(255, 0, 204, 0.5);
-    position: relative;
-}
-
-#random-btn:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 25px rgba(255, 0, 204, 0.7);
-}
-
-#random-btn::after {
-    content: "🎲";
-    font-size: 1.5em;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    animation: spin-dice 4s linear infinite;
-}
-
-@keyframes spin-dice {
-    0% {
-        transform: translate(-50%, -50%) rotate(0deg);
-    }
-    100% {
-        transform: translate(-50%, -50%) rotate(360deg);
-    }
-}
-
-/* Search Container */
 #search-container {
-    position: sticky;
-    top: 62px;
-    z-index: 150;
-    padding: 12px;
+    position: sticky; /* Always visible */
+    top: 62px; /* Adjust to match the height of the button container */
+    z-index: 150; /* Below the buttons but above the gallery */
+    padding: 8px; /* Remove additional padding */
+    margin: 0; /* Remove any margin */
     text-align: center;
-    background-color: #121212;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    background-color: #121212; /* Match the background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Optional: Add shadow for better visibility */
 }
 
 #search-bar {
-    padding: 10px;
+    padding: 8px; /* Adjust padding for consistency */
     width: 100%;
-    max-width: 600px;
-    font-size: 14px;
-    border-radius: 8px;
-    border: 1px solid #00f260;
-    background-color: #222;
-    color: #f5f5f5;
-    box-shadow: 0 0 10px rgba(0, 242, 96, 0.3);
-    transition: all 0.3s ease;
-}
-
-#search-bar:focus {
-    border-color: #0575e6;
-    box-shadow: 0 0 15px rgba(5, 117, 230, 0.5);
-    outline: none;
+    margin: 0 auto;
+    max-width: 600px; /* Limit the max width */
+    font-size: 14px; /* Slightly smaller font size */
+    border-radius: 5px;
+    border: 1px solid #555; /* Darker border for input */
+    background-color: #333; /* Dark background for input */
+    color: #f5f5f5; /* Light text color for input */
 }
 
 #search-bar::placeholder {
-    color: #b0b0b0;
+    color: #b0b0b0; /* Lighter placeholder color */
 }
 
 /* Gallery Styles */
 #gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));  /* Default to 1fr, but minimum width 250px */
     gap: 20px;
     padding: 20px;
     justify-items: center;
-    flex-grow: 1;
+    flex-grow: 1; /* Allow the gallery to take up remaining space */
 }
 
+/* Explicit rule to ensure two columns on small devices */
 @media (max-width: 600px) {
     #gallery {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr); /* Force 2 columns on small screens */
     }
 }
 
@@ -186,15 +59,8 @@ body {
 .gallery-item {
     text-align: center;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 8px;
     padding: 10px;
-    transition: all 0.3s ease;
-    box-shadow: 0 0 10px rgba(0, 242, 96, 0.2);
-}
-
-.gallery-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(5, 117, 230, 0.4);
 }
 
 .gallery-item img {
@@ -202,24 +68,13 @@ body {
     height: auto;
     border-radius: 8px;
     cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.gallery-item img:hover {
-    box-shadow: 0 0 15px rgba(255, 0, 204, 0.5);
 }
 
 .gallery-item .info {
     margin-top: 10px;
     font-size: 14px;
     font-weight: bold;
-    color: #f5f5f5;
-    transition: all 0.3s ease;
-}
-
-.gallery-item:hover .info {
-    color: #00f260;
-    text-shadow: 0 0 5px rgba(0, 242, 96, 0.7);
+    color: #f5f5f5;  /* Light text color for info */
 }
 
 /* Modal Styles */
@@ -233,73 +88,209 @@ body {
     background-color: rgba(0, 0, 0, 0.9);
     justify-content: center;
     align-items: center;
-    z-index: 999;
+    z-index: 999; /* Modal above other content */
 }
 
 .modal-img {
-    max-width: 90%;
+    max-width: 102%;
     max-height: 90%;
-    border-radius: 8px;
-    box-shadow: 0 0 30px rgba(0, 242, 96, 0.5);
 }
 
 /* Close Button */
 .close-btn {
     position: fixed;
-    top: 20px;
+    top: 20px; /* Fixed to top-right corner */
     right: 20px;
-    font-size: 25px;
+    font-size: 25px; /* Large text for visibility */
     color: white;
-    background: linear-gradient(135deg, #ff00cc, #3333ff);
-    padding: 8px 12px;
-    border-radius: 50%;
-    border: none;
-    z-index: 1000;
-    cursor: pointer;
-    box-shadow: 0 0 15px rgba(255, 0, 204, 0.6);
-    transition: all 0.3s ease;
+    background-color: rgb(255, 118, 118); /* Bright red background */
+    padding: 5px; /* Increased padding for a larger button */
+    border-radius: 25%; /* Fully rounded button */
+    border: 1px solid white; /* White border for contrast */
+    z-index: 1000; /* Ensures it’s always visible */
+    cursor: pointer; /* Pointer cursor for interactivity */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Optional shadow for better visibility */
+    transition: transform 0.2s ease, background-color 0.2s ease; /* Smooth transitions */
 }
 
 .close-btn:hover {
-    transform: scale(1.2);
-    box-shadow: 0 0 25px rgba(255, 0, 204, 0.9);
+    background-color: #ff4d4d; /* Lighter red on hover for feedback */
+    transform: scale(1.2); /* Slight zoom effect on hover */
 }
+
 
 /* Footer Styles */
 footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     padding: 20px;
-    background-color: #1e1e1e;
+    background-color: #1e1e1e;  /* Dark background for footer */
     margin-top: 20px;
-    flex-wrap: wrap;
-    gap: 20px;
-    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.5);
 }
 
 /* "Request a Song" Button Styles */
 .mailto-button {
     display: inline-block;
     padding: 12px 25px;
-    background: linear-gradient(135deg, #00f260, #0575e6);
+    background: linear-gradient(135deg, #007bff, #0056b3);
     color: #ffffff;
     text-decoration: none;
     border-radius: 8px;
     font-size: 1.2em;
     font-weight: bold;
-    box-shadow: 0 0 15px rgba(0, 242, 96, 0.5);
-    transition: all 0.3s ease;
-    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background 0.3s ease, transform 0.3s ease;
+    animation: bounce 2s infinite ease-in-out; /* Bounce animation */
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
 }
 
 .mailto-button:hover {
-    background: linear-gradient(135deg, #0575e6, #00f260);
-    transform: translateY(-3px) scale(1.05);
-    box-shadow: 0 7px 20px rgba(5, 117, 230, 0.6);
+    background: linear-gradient(135deg, #0056b3, #003d7a);
+    transform: scale(1.05);
 }
 
-/* About Button Styles */
+#button-container {
+    position: sticky; /* Always visible */
+    top: 0; /* Stick to the top of the viewport */
+    z-index: 200; /* Ensure it's above other elements */
+    display: flex;
+    justify-content: center;
+    gap: 24px; /* Spacing between buttons */
+    padding: 10px; /* Padding around buttons */
+    background-color: #121212; /* Match background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Add shadow for visibility */
+}
+
+#gallery1-btn, #gallery2-btn {
+    position: relative;
+    padding: 12px 25px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #ff00cc, #3333ff);
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    text-transform: uppercase;
+    transition: background 0.5s ease, color 0.5s ease, transform 0.3s ease;
+}
+
+#gallery1-btn:hover, #gallery2-btn:hover {
+    background: linear-gradient(45deg, #3333ff, #ff00cc); /* Reverse gradient on hover */
+    transform: scale(1.2) rotate(-3deg); /* Scale and tilt for a crazy hover effect */
+    box-shadow: 0 10px 20px rgba(255, 0, 200, 0.7); /* Neon-like shadow */
+}
+
+#gallery1-btn::before, #gallery2-btn::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.4), transparent);
+    transform: translate(-50%, -50%) rotate(45deg);
+    z-index: -1;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+
+#gallery1-btn:hover::before, #gallery2-btn:hover::before {
+    opacity: 1;
+}
+
+#gallery1-btn.active, #gallery2-btn.active {
+    background: linear-gradient(45deg, #ff0000, #ff9900); /* Bold colors for active state */
+    transform: scale(1.1); /* Slightly larger for the active button */
+    box-shadow: 0 8px 15px rgba(255, 150, 0, 0.8); /* Glow for the active button */
+    animation: pulse 1s infinite; /* Pulse effect for active button */
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1.1);
+        box-shadow: 0 8px 15px rgba(255, 150, 0, 0.8);
+    }
+    50% {
+        transform: scale(1.15);
+        box-shadow: 0 12px 20px rgba(255, 150, 0, 1);
+    }
+}
+
+#random-btn {
+    position: relative;
+    padding: 12px 25px;
+    font-size: 15px; /* Keeps the text size consistent */
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background: linear-gradient(135deg, rgba(0, 255, 0, 0.6) 25%, rgba(0, 100, 0, 0.6) 25%, rgba(0, 100, 0, 0.6) 50%, rgba(0, 255, 0, 0.6) 50%, rgba(0, 255, 0, 0.6) 75%, rgba(0, 100, 0, 0.6) 75%);
+    background-size: 200% 200%;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    text-transform: uppercase;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: stripe-glow 3s linear infinite, button-glow 3s infinite ease-in-out; /* Two animations combined */
+}
+
+#random-btn:hover {
+    transform: scale(1.2) rotate(-3deg); /* Scale and tilt for dynamic hover effect */
+}
+
+#random-btn::after {
+    content: "🎲"; /* Dice emoji */
+    font-size: 1.8em; /* Larger dice icon */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: spin-dice 4s linear infinite; /* Slower spinning animation (4 seconds) */
+}
+
+/* Striped background animation */
+@keyframes stripe-glow {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%; /* Stripes scroll diagonally */
+    }
+}
+
+/* Glowing effect animation */
+@keyframes button-glow {
+    0%, 100% {
+        box-shadow: 0 0 10px rgba(0, 255, 0, 0.6), 0 0 20px rgba(0, 255, 0, 0.4), 0 0 30px rgba(0, 255, 0, 0.2);
+    }
+    50% {
+        box-shadow: 0 0 15px rgba(0, 255, 0, 0.8), 0 0 30px rgba(0, 255, 0, 0.6), 0 0 45px rgba(0, 255, 0, 0.4);
+    }
+}
+
+/* Slower spinning dice animation */
+@keyframes spin-dice {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+/* About Button Styles - Enhanced */
 .about-button {
     display: inline-block;
     padding: 12px 25px;
@@ -309,8 +300,9 @@ footer {
     border-radius: 8px;
     font-size: 1.2em;
     font-weight: bold;
-    box-shadow: 0 0 15px rgba(0, 242, 96, 0.5);
+    box-shadow: 0 4px 15px rgba(0, 242, 96, 0.5);
     transition: all 0.3s ease;
+    margin-left: 20px;
     cursor: pointer;
     border: none;
     position: relative;
@@ -340,7 +332,19 @@ footer {
     box-shadow: 0 7px 20px rgba(5, 117, 230, 0.6);
 }
 
-/* About Modal Styling */
+/* Adjust footer for the new button */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #1e1e1e;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* About Modal Styling - Super Spicy */
 .modal-content {
     background: linear-gradient(135deg, #111, #222);
     margin: 3% auto;
@@ -408,17 +412,17 @@ footer {
     margin-bottom: 20px;
     padding: 15px;
     border-radius: 10px;
-    background: rgba(255, 0, 204, 0.1);
+    background: rgba(255, 0, 0, 0.1);
     transform: rotate(-1deg) scale(1.02);
 }
 
 .header-text p {
     font-size: 1.3em;
     font-weight: bold;
-    color: #ff00cc;
+    color: #ff5555;
     margin: 0;
     text-align: center;
-    text-shadow: 0 0 10px rgba(255, 0, 204, 0.7);
+    text-shadow: 0 0 10px rgba(255, 85, 85, 0.7);
     letter-spacing: 1px;
 }
 
@@ -467,13 +471,11 @@ footer {
 .pros {
     background: rgba(0, 242, 96, 0.05);
     border-left: 3px solid #00f260;
-    box-shadow: 0 0 15px rgba(0, 242, 96, 0.2);
 }
 
 .cons {
     background: rgba(5, 117, 230, 0.05);
     border-left: 3px solid #0575e6;
-    box-shadow: 0 0 15px rgba(5, 117, 230, 0.2);
 }
 
 .pros p, .cons p {
@@ -485,12 +487,10 @@ footer {
 
 .pros p {
     color: #00f260;
-    text-shadow: 0 0 5px rgba(0, 242, 96, 0.5);
 }
 
 .cons p {
     color: #0575e6;
-    text-shadow: 0 0 5px rgba(5, 117, 230, 0.5);
 }
 
 .tagline {
@@ -515,44 +515,8 @@ footer {
         background-position: 300% 50%;
     }
 }
-/* Button Container */
-#button-container {
-    position: sticky;
-    top: 0;
-    z-index: 200;
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-    padding: 15px;
-    background-color: #121212;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
-    flex-wrap: nowrap; /* Force no wrapping */
-}
 
-/* Media queries */
-@media (max-width: 600px) {
-    #button-container {
-        gap: 5px; /* Further reduce the gap for mobile */
-        padding: 10px 5px; /* Reduce padding for mobile */
-        justify-content: space-around; /* Distribute space evenly */
-    }
-
-    #gallery1-btn, #gallery2-btn, #random-btn {
-        /* Make buttons even smaller for mobile */
-        padding: 8px 10px;
-        font-size: 12px; /* Smaller font size */
-        min-width: 0; /* Allow buttons to shrink if needed */
-        flex: 0 1 auto; /* Allow buttons to shrink but not grow */
-    }
-
-    #random-btn {
-        /* Ensure the random button isn't larger than necessary */
-        padding: 8px; /* Equal padding on all sides */
-        width: 36px; /* Fixed width */
-        height: 36px; /* Fixed height */
-    }
-}
-/* Media queries */
+/* For small screens */
 @media (min-width: 600px) {
     .benefits-container {
         flex-direction: row;
@@ -570,10 +534,7 @@ footer {
     }
 
     .about-button {
+        margin-left: 0;
         margin-top: 15px;
-    }
-
-    #button-container {
-        flex-wrap: wrap;
     }
 }
