@@ -21,6 +21,14 @@ const gallery1Images = [
     "nametag": "Alejandro Sanz Y ¿Si fuera ella"
   },
   {
+    "src": "Charts/Repertorio/Amaral/Amaral - Como Hablar.webp",
+    "nametag": "Amaral Amaral - Como Hablar"
+  },
+  {
+    "src": "Charts/Repertorio/Amaral/Amaral - Moriria Por Vos.webp",
+    "nametag": "Amaral Amaral - Moriria Por Vos"
+  },
+  {
     "src": "Charts/Repertorio/El Canto Del Loco/La Suerte de mi Vida.webp",
     "nametag": "El Canto Del Loco La Suerte de mi Vida"
   },
