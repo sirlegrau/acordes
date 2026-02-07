@@ -21,12 +21,12 @@ const gallery1Images = [
     "nametag": "Alejandro Sanz Y ¿Si fuera ella"
   },
   {
-    "src": "Charts/Repertorio/Amaral/Amaral - Como Hablar.webp",
-    "nametag": "Amaral Amaral - Como Hablar"
+    "src": "Charts/Repertorio/Amaral/Como Hablar.webp",
+    "nametag": "Amaral Como Hablar"
   },
   {
-    "src": "Charts/Repertorio/Amaral/Amaral - Moriria Por Vos.webp",
-    "nametag": "Amaral Amaral - Moriria Por Vos"
+    "src": "Charts/Repertorio/Amaral/Moriria Por Vos.webp",
+    "nametag": "Amaral Moriria Por Vos"
   },
   {
     "src": "Charts/Repertorio/El Canto Del Loco/La Suerte de mi Vida.webp",
@@ -71,6 +71,10 @@ const gallery1Images = [
   {
     "src": "Charts/Repertorio/Fito y Fitipaldis/Acabo de Llegar.webp",
     "nametag": "Fito y Fitipaldis Acabo de Llegar"
+  },
+  {
+    "src": "Charts/Repertorio/Fito y Fitipaldis/La Casa Por el Tejado.webp",
+    "nametag": "Fito y Fitipaldis La Casa Por el Tejado"
   },
   {
     "src": "Charts/Repertorio/Fito y Fitipaldis/Las Nubes de tu Pelo.webp",
