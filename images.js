@@ -447,6 +447,10 @@ const gallery2Images = [
     "nametag": "Jazz Standard Days Of Wine And Roses"
   },
   {
+    "src": "Charts/Jazz/Jazz Standard/Feel Like Makin Love.webp",
+    "nametag": "Jazz Standard Feel Like Makin Love"
+  },
+  {
     "src": "Charts/Jazz/Jazz Standard/Fly Me To The Moon.webp",
     "nametag": "Jazz Standard Fly Me To The Moon"
   },
