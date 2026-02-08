@@ -73,6 +73,10 @@ const gallery1Images = [
     "nametag": "Fito y Fitipaldis Acabo de Llegar"
   },
   {
+    "src": "Charts/Repertorio/Fito y Fitipaldis/Donde todo empieza.webp",
+    "nametag": "Fito y Fitipaldis Donde todo empieza"
+  },
+  {
     "src": "Charts/Repertorio/Fito y Fitipaldis/La Casa Por el Tejado.webp",
     "nametag": "Fito y Fitipaldis La Casa Por el Tejado"
   },
@@ -99,6 +103,10 @@ const gallery1Images = [
   {
     "src": "Charts/Repertorio/Fito y Fitipaldis/Soldadito Marinero.webp",
     "nametag": "Fito y Fitipaldis Soldadito Marinero"
+  },
+  {
+    "src": "Charts/Repertorio/Fito y Fitipaldis/Un buen castigo.webp",
+    "nametag": "Fito y Fitipaldis Un buen castigo"
   },
   {
     "src": "Charts/Repertorio/Ginestá/Estimar-te Com La Terra.webp",
@@ -195,6 +203,10 @@ const gallery1Images = [
   {
     "src": "Charts/Repertorio/La Cabra Mecánica/Carne De Canción.webp",
     "nametag": "La Cabra Mecánica Carne De Canción"
+  },
+  {
+    "src": "Charts/Repertorio/La Cabra Mecánica/Cuando vuelve el amor.webp",
+    "nametag": "La Cabra Mecánica Cuando vuelve el amor"
   },
   {
     "src": "Charts/Repertorio/La Cabra Mecánica/Felicidad.webp",
