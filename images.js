@@ -295,6 +295,10 @@ const gallery1Images = [
 ];
 const gallery2Images = [
   {
+    "src": "Charts/Jazz/Arr By Myself/Isn't She Lovely.webp",
+    "nametag": "Arr By Myself Isn't She Lovely"
+  },
+  {
     "src": "Charts/Jazz/Jazz Standard/Afro Blue.webp",
     "nametag": "Jazz Standard Afro Blue"
   },
@@ -461,10 +465,6 @@ const gallery2Images = [
   {
     "src": "Charts/Jazz/Jazz Standard/How Insensitive.webp",
     "nametag": "Jazz Standard How Insensitive"
-  },
-  {
-    "src": "Charts/Jazz/Jazz Standard/Isn't She Lovely.webp",
-    "nametag": "Jazz Standard Isn't She Lovely"
   },
   {
     "src": "Charts/Jazz/Jazz Standard/Just Friends.webp",
