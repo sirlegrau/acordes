@@ -61,8 +61,16 @@ const gallery1Images = [
     "nametag": "Estopa Apagón"
   },
   {
+    "src": "Charts/Repertorio/Estopa/Destrangis in the night.webp",
+    "nametag": "Estopa Destrangis in the night"
+  },
+  {
     "src": "Charts/Repertorio/Estopa/Mundo Marrón.webp",
     "nametag": "Estopa Mundo Marrón"
+  },
+  {
+    "src": "Charts/Repertorio/Estopa/Paseo.webp",
+    "nametag": "Estopa Paseo"
   },
   {
     "src": "Charts/Repertorio/Fito y Fitipaldis/A la Luna se le ve el ombligo.webp",
@@ -71,6 +79,10 @@ const gallery1Images = [
   {
     "src": "Charts/Repertorio/Fito y Fitipaldis/Acabo de Llegar.webp",
     "nametag": "Fito y Fitipaldis Acabo de Llegar"
+  },
+  {
+    "src": "Charts/Repertorio/Fito y Fitipaldis/Callejón sin Salida.webp",
+    "nametag": "Fito y Fitipaldis Callejón sin Salida"
   },
   {
     "src": "Charts/Repertorio/Fito y Fitipaldis/Donde todo empieza.webp",
@@ -203,6 +215,10 @@ const gallery1Images = [
   {
     "src": "Charts/Repertorio/La Cabra Mecánica/Carne De Canción.webp",
     "nametag": "La Cabra Mecánica Carne De Canción"
+  },
+  {
+    "src": "Charts/Repertorio/La Cabra Mecánica/De buena mañana.webp",
+    "nametag": "La Cabra Mecánica De buena mañana"
   },
   {
     "src": "Charts/Repertorio/La Cabra Mecánica/Felicidad.webp",
