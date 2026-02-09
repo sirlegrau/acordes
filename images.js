@@ -205,10 +205,6 @@ const gallery1Images = [
     "nametag": "La Cabra Mecánica Carne De Canción"
   },
   {
-    "src": "Charts/Repertorio/La Cabra Mecánica/Cuando vuelve el amor.webp",
-    "nametag": "La Cabra Mecánica Cuando vuelve el amor"
-  },
-  {
     "src": "Charts/Repertorio/La Cabra Mecánica/Felicidad.webp",
     "nametag": "La Cabra Mecánica Felicidad"
   },
@@ -297,6 +293,10 @@ const gallery2Images = [
   {
     "src": "Charts/Jazz/Arr By Myself/Alone Again Naturally.webp",
     "nametag": "Arr By Myself Alone Again Naturally"
+  },
+  {
+    "src": "Charts/Jazz/Arr By Myself/Cuando vuelve el amor.webp",
+    "nametag": "Arr By Myself Cuando vuelve el amor"
   },
   {
     "src": "Charts/Jazz/Arr By Myself/Isn't She Lovely.webp",
