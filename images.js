@@ -295,8 +295,16 @@ const gallery1Images = [
 ];
 const gallery2Images = [
   {
+    "src": "Charts/Jazz/Arr By Myself/Alone Again Naturally.webp",
+    "nametag": "Arr By Myself Alone Again Naturally"
+  },
+  {
     "src": "Charts/Jazz/Arr By Myself/Isn't She Lovely.webp",
     "nametag": "Arr By Myself Isn't She Lovely"
+  },
+  {
+    "src": "Charts/Jazz/Arr By Myself/Wave.webp",
+    "nametag": "Arr By Myself Wave"
   },
   {
     "src": "Charts/Jazz/Jazz Standard/Afro Blue.webp",
