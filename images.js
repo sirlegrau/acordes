@@ -315,6 +315,10 @@ const gallery2Images = [
     "nametag": "Arr By Myself Cuando vuelve el amor"
   },
   {
+    "src": "Charts/Jazz/Arr By Myself/From the start.webp",
+    "nametag": "Arr By Myself From the start"
+  },
+  {
     "src": "Charts/Jazz/Arr By Myself/Isn't She Lovely.webp",
     "nametag": "Arr By Myself Isn't She Lovely"
   },
