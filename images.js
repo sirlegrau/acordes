@@ -323,6 +323,10 @@ const gallery2Images = [
     "nametag": "Arr By Myself Isn't She Lovely"
   },
   {
+    "src": "Charts/Jazz/Arr By Myself/malibU.webp",
+    "nametag": "Arr By Myself malibU"
+  },
+  {
     "src": "Charts/Jazz/Arr By Myself/Wave.webp",
     "nametag": "Arr By Myself Wave"
   },
