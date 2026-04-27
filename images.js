@@ -73,24 +73,36 @@ const gallery1Images = [
     "nametag": "Estopa Paseo"
   },
   {
-    "src": "Charts/Repertorio/Extremoduro/La-vereda-de-la-puerta-de-atrás.webp",
-    "nametag": "Extremoduro La-vereda-de-la-puerta-de-atrás"
+    "src": "Charts/Repertorio/Extremoduro/golfa.webp",
+    "nametag": "Extremoduro golfa"
   },
   {
-    "src": "Charts/Repertorio/Extremoduro/Locura-Transitoria.webp",
-    "nametag": "Extremoduro Locura-Transitoria"
+    "src": "Charts/Repertorio/Extremoduro/La Vereda de la Puerta de Atrás.webp",
+    "nametag": "Extremoduro La Vereda de la Puerta de Atrás"
   },
   {
-    "src": "Charts/Repertorio/Extremoduro/Mi-espíritu-imperecedero.webp",
-    "nametag": "Extremoduro Mi-espíritu-imperecedero"
+    "src": "Charts/Repertorio/Extremoduro/Locura Transitoria.webp",
+    "nametag": "Extremoduro Locura Transitoria"
   },
   {
-    "src": "Charts/Repertorio/Extremoduro/si-te-vas.webp",
-    "nametag": "Extremoduro si-te-vas"
+    "src": "Charts/Repertorio/Extremoduro/Mi Espíritu Imperecedero.webp",
+    "nametag": "Extremoduro Mi Espíritu Imperecedero"
   },
   {
-    "src": "Charts/Repertorio/Extremoduro/Stand-By.webp",
-    "nametag": "Extremoduro Stand-By"
+    "src": "Charts/Repertorio/Extremoduro/salir.webp",
+    "nametag": "Extremoduro salir"
+  },
+  {
+    "src": "Charts/Repertorio/Extremoduro/Si te vas.webp",
+    "nametag": "Extremoduro Si te vas"
+  },
+  {
+    "src": "Charts/Repertorio/Extremoduro/SO PAYASO.webp",
+    "nametag": "Extremoduro SO PAYASO"
+  },
+  {
+    "src": "Charts/Repertorio/Extremoduro/Stand By.webp",
+    "nametag": "Extremoduro Stand By"
   },
   {
     "src": "Charts/Repertorio/Fito y Fitipaldis/A la Luna se le ve el ombligo.webp",
