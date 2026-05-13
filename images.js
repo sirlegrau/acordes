@@ -343,6 +343,10 @@ const gallery2Images = [
     "nametag": "Arr By Myself Alone Again Naturally"
   },
   {
+    "src": "Charts/Jazz/Arr By Myself/amuleto - mareh.webp",
+    "nametag": "Arr By Myself amuleto - mareh"
+  },
+  {
     "src": "Charts/Jazz/Arr By Myself/Cuando vuelve el amor.webp",
     "nametag": "Arr By Myself Cuando vuelve el amor"
   },
