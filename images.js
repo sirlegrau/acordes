@@ -347,6 +347,14 @@ const gallery2Images = [
     "nametag": "Arr By Myself amuleto - mareh"
   },
   {
+    "src": "Charts/Jazz/Arr By Myself/are you gonNA do it or not.webp",
+    "nametag": "Arr By Myself are you gonNA do it or not"
+  },
+  {
+    "src": "Charts/Jazz/Arr By Myself/average sunday in doom street.webp",
+    "nametag": "Arr By Myself average sunday in doom street"
+  },
+  {
     "src": "Charts/Jazz/Arr By Myself/Cuando vuelve el amor.webp",
     "nametag": "Arr By Myself Cuando vuelve el amor"
   },
@@ -363,8 +371,16 @@ const gallery2Images = [
     "nametag": "Arr By Myself malibU"
   },
   {
+    "src": "Charts/Jazz/Arr By Myself/paying-taxes-from-a-goodbye.webp",
+    "nametag": "Arr By Myself paying-taxes-from-a-goodbye"
+  },
+  {
     "src": "Charts/Jazz/Arr By Myself/Wave.webp",
     "nametag": "Arr By Myself Wave"
+  },
+  {
+    "src": "Charts/Jazz/Arr By Myself/Would You LIke To Watch Cartoons.webp",
+    "nametag": "Arr By Myself Would You LIke To Watch Cartoons"
   },
   {
     "src": "Charts/Jazz/Jazz Standard/Afro Blue.webp",
@@ -535,12 +551,44 @@ const gallery2Images = [
     "nametag": "Jazz Standard How Insensitive"
   },
   {
+    "src": "Charts/Jazz/Jazz Standard/I Will Remember April.webp",
+    "nametag": "Jazz Standard I Will Remember April"
+  },
+  {
+    "src": "Charts/Jazz/Jazz Standard/In A Sentimental Mood.webp",
+    "nametag": "Jazz Standard In A Sentimental Mood"
+  },
+  {
+    "src": "Charts/Jazz/Jazz Standard/It Could Happen To You.webp",
+    "nametag": "Jazz Standard It Could Happen To You"
+  },
+  {
     "src": "Charts/Jazz/Jazz Standard/Just Friends.webp",
     "nametag": "Jazz Standard Just Friends"
   },
   {
     "src": "Charts/Jazz/Jazz Standard/Misty.webp",
     "nametag": "Jazz Standard Misty"
+  },
+  {
+    "src": "Charts/Jazz/Jazz Standard/My Funny Valentine.webp",
+    "nametag": "Jazz Standard My Funny Valentine"
+  },
+  {
+    "src": "Charts/Jazz/Jazz Standard/One Note Samba.webp",
+    "nametag": "Jazz Standard One Note Samba"
+  },
+  {
+    "src": "Charts/Jazz/Jazz Standard/Summertime.webp",
+    "nametag": "Jazz Standard Summertime"
+  },
+  {
+    "src": "Charts/Jazz/Jazz Standard/There Will Never Be Another You.webp",
+    "nametag": "Jazz Standard There Will Never Be Another You"
+  },
+  {
+    "src": "Charts/Jazz/Jazz Standard/Triste.webp",
+    "nametag": "Jazz Standard Triste"
   },
   {
     "src": "Charts/Jazz/Jazz Standard/Tune Up.webp",
