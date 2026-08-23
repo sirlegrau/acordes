@@ -339,6 +339,10 @@ const gallery1Images = [
 ];
 const gallery2Images = [
   {
+    "src": "Charts/Jazz/Arr By Myself/Ain't No Sunshine.webp",
+    "nametag": "Arr By Myself Ain't No Sunshine"
+  },
+  {
     "src": "Charts/Jazz/Arr By Myself/Alone Again Naturally.webp",
     "nametag": "Arr By Myself Alone Again Naturally"
   },
@@ -351,8 +355,16 @@ const gallery2Images = [
     "nametag": "Arr By Myself are you gonNA do it or not"
   },
   {
+    "src": "Charts/Jazz/Arr By Myself/At Last.webp",
+    "nametag": "Arr By Myself At Last"
+  },
+  {
     "src": "Charts/Jazz/Arr By Myself/average sunday in doom street.webp",
     "nametag": "Arr By Myself average sunday in doom street"
+  },
+  {
+    "src": "Charts/Jazz/Arr By Myself/Back to Black.webp",
+    "nametag": "Arr By Myself Back to Black"
   },
   {
     "src": "Charts/Jazz/Arr By Myself/Cuando vuelve el amor.webp",
@@ -367,12 +379,32 @@ const gallery2Images = [
     "nametag": "Arr By Myself Isn't She Lovely"
   },
   {
+    "src": "Charts/Jazz/Arr By Myself/Just The Two of Us.webp",
+    "nametag": "Arr By Myself Just The Two of Us"
+  },
+  {
+    "src": "Charts/Jazz/Arr By Myself/Lovely Day.webp",
+    "nametag": "Arr By Myself Lovely Day"
+  },
+  {
     "src": "Charts/Jazz/Arr By Myself/malibU.webp",
     "nametag": "Arr By Myself malibU"
   },
   {
+    "src": "Charts/Jazz/Arr By Myself/Mr. Magic.webp",
+    "nametag": "Arr By Myself Mr. Magic"
+  },
+  {
+    "src": "Charts/Jazz/Arr By Myself/Nunca Vas A Comprender.webp",
+    "nametag": "Arr By Myself Nunca Vas A Comprender"
+  },
+  {
     "src": "Charts/Jazz/Arr By Myself/paying-taxes-from-a-goodbye.webp",
     "nametag": "Arr By Myself paying-taxes-from-a-goodbye"
+  },
+  {
+    "src": "Charts/Jazz/Arr By Myself/Valerie.webp",
+    "nametag": "Arr By Myself Valerie"
   },
   {
     "src": "Charts/Jazz/Arr By Myself/Wave.webp",
