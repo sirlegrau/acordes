@@ -367,12 +367,40 @@ const gallery2Images = [
     "nametag": "Arr By Myself Back to Black"
   },
   {
+    "src": "Charts/Jazz/Arr By Myself/Best Part.webp",
+    "nametag": "Arr By Myself Best Part"
+  },
+  {
+    "src": "Charts/Jazz/Arr By Myself/Buenos Aires.webp",
+    "nametag": "Arr By Myself Buenos Aires"
+  },
+  {
+    "src": "Charts/Jazz/Arr By Myself/Crazy.webp",
+    "nametag": "Arr By Myself Crazy"
+  },
+  {
     "src": "Charts/Jazz/Arr By Myself/Cuando vuelve el amor.webp",
     "nametag": "Arr By Myself Cuando vuelve el amor"
   },
   {
+    "src": "Charts/Jazz/Arr By Myself/Diamonds.webp",
+    "nametag": "Arr By Myself Diamonds"
+  },
+  {
+    "src": "Charts/Jazz/Arr By Myself/Englishman in New York.webp",
+    "nametag": "Arr By Myself Englishman in New York"
+  },
+  {
     "src": "Charts/Jazz/Arr By Myself/From the start.webp",
     "nametag": "Arr By Myself From the start"
+  },
+  {
+    "src": "Charts/Jazz/Arr By Myself/How Deep Is Your Love.webp",
+    "nametag": "Arr By Myself How Deep Is Your Love"
+  },
+  {
+    "src": "Charts/Jazz/Arr By Myself/I Will Survive.webp",
+    "nametag": "Arr By Myself I Will Survive"
   },
   {
     "src": "Charts/Jazz/Arr By Myself/Isn't She Lovely.webp",
@@ -401,6 +429,10 @@ const gallery2Images = [
   {
     "src": "Charts/Jazz/Arr By Myself/paying-taxes-from-a-goodbye.webp",
     "nametag": "Arr By Myself paying-taxes-from-a-goodbye"
+  },
+  {
+    "src": "Charts/Jazz/Arr By Myself/Shallow.webp",
+    "nametag": "Arr By Myself Shallow"
   },
   {
     "src": "Charts/Jazz/Arr By Myself/Valerie.webp",
